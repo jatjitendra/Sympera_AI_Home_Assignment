@@ -1,0 +1,71 @@
+{
+  "company": "Elite Builds LLC",
+  "market_context": {
+    "source": "Q1 2026 Industry Report",
+    "industry_material_cost_inflation_pct": 15.0,
+    "industry_avg_net_margin_pct": 4.0,
+    "credit_tightening_trigger": "high Expense Velocity"
+  },
+  "cash_flow_summary": {
+    "total_revenue": 112120,
+    "total_expenses": 62400,
+    "net_cash_flow": 49720,
+    "net_cash_flow_margin_pct": 44.3
+  },
+  "signals": [
+    {
+      "name": "Resilience Alpha",
+      "finding": "Net cash-flow margin of 44.3% sits well above the industry's 4.0% accrual net-margin benchmark (different accounting bases, so not stated as a direct multiple), and observed payment amounts to both tracked raw-material vendors declined between recorded payments, even as the sector reports a 15.0% material cost surge.",
+      "evidence": {
+        "net_cash_flow_margin_pct": 44.3,
+        "industry_avg_net_margin_pct": 4.0,
+        "vendor_payment_trend": {
+          "Intermountain Lumber": {
+            "first_payment": 12000,
+            "latest_payment": 11000,
+            "pct_change_first_to_latest_payment": -8.3
+          },
+          "Steel Supply Co": {
+            "first_payment": 4000,
+            "latest_payment": 3800,
+            "pct_change_first_to_latest_payment": -5.0
+          }
+        }
+      }
+    },
+    {
+      "name": "Growth Reinvestment",
+      "finding": "$10,650 (9.5% of monthly revenue) was deployed across three distinct areas -- software (AutoCAD), marketing (local SEO), and equipment capex (a down payment) -- rather than reactive operational overhead. That spread across categories, not just the total, is what separates deliberate investment from a single lucky expense.",
+      "evidence": {
+        "total_reinvestment": 10650,
+        "pct_of_revenue": 9.5,
+        "line_items": [
+          {
+            "date": "2026-03-18",
+            "description": "Software Subscription (AutoCAD)",
+            "amount": 150
+          },
+          {
+            "date": "2026-03-20",
+            "description": "Marketing - Local SEO",
+            "amount": 500
+          },
+          {
+            "date": "2026-03-31",
+            "description": "New Equipment Downpayment",
+            "amount": 10000
+          }
+        ]
+      }
+    },
+    {
+      "name": "Expense Velocity Discipline",
+      "finding": "Core operating expense (Operations + Inventory) moved -2.6% from the first half of the month to the second ($25,100 -> $24,450) -- flat-to-falling, the opposite of the 'high Expense Velocity' pattern the market snippet says banks are tightening credit against.",
+      "evidence": {
+        "first_half_core_opex": 25100,
+        "second_half_core_opex": 24450,
+        "pct_change": -2.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "customer_id": "ELITE_BUILDS_LLC",
+  "industry": "Residential Construction",
+  "region": "Utah, US",
+  "metrics": {
+    "net_cash_flow_margin_pct": 44.3,
+    "industry_avg_net_margin_pct": 4.0,
+    "reinvestment_pct_of_revenue": 9.5,
+    "core_opex_pct_change_half_over_half": -2.6,
+    "vendor_payment_pct_change_range": "-8.3% to -5.0%"
+  },
+  "segments": {
+    "behavioral": {
+      "vendor_payment_trend": "Vendor payments down; sector costs up 15%.",
+      "opex_trend": "Core opex down half-over-half.",
+      "reinvestment": "$10,650: tech, marketing, equipment capex."
+    },
+    "demographics": {
+      "business_type": "Small construction firm",
+      "location": "Utah, USA",
+      "revenue_band": "$112,120 observed credits"
+    },
+    "psychographics": {
+      "brand_affinity": "AutoCAD indicates tech adoption.",
+      "growth_orientation": "Equipment/marketing spend suggests growth focus.",
+      "liquidity_posture": "Savings transfer observed."
+    }
+  },
+  "key_signal": "Resilience Alpha: cash-flow margin well above industry benchmark despite sector's 15% material cost surge.",
+  "recommended_product": "Equipment Financing / Equipment Line of Credit"
+}
